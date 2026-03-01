@@ -1,1 +1,8 @@
 # Top-Instagram-Influencers-Data-Analysis-project
+The Top Instagram Influencers Data (Cleaned) project focuses on analyzing and predicting key insights from Instagram influencer data using Machine Learning and Data Analytics techniques. The dataset contains 200 influencers with 10 important attributes such as rank, channel name, influence score, posts, followers, average likes, 60-day engagement rate, new post average likes, total likes, and country. The ranking is primarily based on the number of followers.
+
+The project begins with data loading and preprocessing using Python libraries like Pandas and NumPy. Since many columns contain values in formats like “M” (million) and “B” (billion), these are converted into numeric values using regular expressions. Missing values are handled using median and mode techniques, and duplicate records are removed to ensure data quality.
+
+Exploratory Data Analysis (EDA) is performed using Matplotlib and Seaborn to understand patterns and relationships. Visualizations such as scatter plots, histograms, and bar charts help identify trends between followers and engagement rate, distribution of influence scores, and top countries with the highest number of influencers.
+
+Feature engineering is applied to create new metrics like like-follower ratio and post-follower ratio. Finally, machine learning models such as Linear Regression and Random Forest are used to predict influence score or engagement rate. The model performance is evaluated using metrics like Mean Squared Error and R² score. This project helps businesses identify high-performing influencers for effective marketing strategies.
